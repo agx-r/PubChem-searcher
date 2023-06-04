@@ -40,6 +40,6 @@ for cid in cids:
 
 ## Contributions
 
-Contributions to this module are welcome! If you encounter any issues, have suggestions for improvements, or would like to add new features, please open an issue or submit a pull request on the [GitHub repository](https://github.com/your-repo-link).
+Contributions to this module are welcome! If you encounter any issues, have suggestions for improvements, or would like to add new features, please open an issue or submit a pull request on the [GitHub repository](https://github.com/Aganow/PubChem-searcher).
 
 We hope this module simplifies the process of retrieving compound connections and information from the PubChem API in your Python projects. Enjoy exploring the world of chemical compounds with ease!
