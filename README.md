@@ -10,7 +10,7 @@ This Python module provides a convenient interface for retrieving compound conne
 
 ## Usage
 
-1. Import the `pubchem_api` module into your Python script or interactive session.
+1. Import the `PubChemSearcher` module into your Python script or interactive session.
 2. Use the `search_compounds(query)` function to search for compounds. Pass the compound name as the `query` parameter, and the function will return a list of compound IDs (CIDs) matching the search query.
 3. Iterate over the CIDs returned from the search and use the `get_compound_info(cid)` function to retrieve detailed information about each compound. Pass the compound ID as the `cid` parameter, and the function will return a dictionary containing compound information in JSON format.
 4. Process the compound information as needed for your application.
@@ -18,10 +18,10 @@ This Python module provides a convenient interface for retrieving compound conne
 Example usage:
 
 ```python
-import pubchem_api
+import PubChemSearcher
 
 # Search for explosive compounds
-query = "explosive"
+query = input()
 cids = pubchem_api.search_compounds(query)
 
 # Retrieve detailed information for each compound
