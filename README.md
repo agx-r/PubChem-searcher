@@ -18,7 +18,7 @@ This Python module provides a convenient interface for retrieving compound conne
 Example usage:
 
 ```python
-import PubChemSearcher
+import PubChemSearcher as pubchem_api
 
 # Search for explosive compounds
 query = input()
