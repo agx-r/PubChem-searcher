@@ -20,8 +20,7 @@ Example usage:
 ```python
 import PubChemSearcher as pubchem_api
 
-query = input()
-cids = pubchem_api.search_compounds(query)
+cids = pubchem_api.search_compounds(input())
 
 # Retrieve detailed information for each compound
 for cid in cids:
